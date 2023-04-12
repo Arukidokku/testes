@@ -7,9 +7,15 @@ public class Ponto3D extends Ponto2D{
 
     public void setZ(int z){
         this.z = z;
+
     }
 
     public String toString(){
         return getX() + "-" + getY() + "-" + getZ();
+    }
+
+    @Override
+    public String toString(){
+        return super.toString() + "-" + getZ();
     }
 }

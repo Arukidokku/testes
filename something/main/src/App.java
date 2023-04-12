@@ -5,5 +5,6 @@ public class App {
 
         Ponto3D threeDimensions = new Ponto3D();
         threeDimensions.toString();
+        
     }
 }

@@ -13,6 +13,7 @@ public class Ponto2D {
 
     public int getY(){
         return y;
+
     }
 
     public void setY(int y){
