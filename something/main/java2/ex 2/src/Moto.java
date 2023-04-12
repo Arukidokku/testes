@@ -1,7 +1,11 @@
 public class Moto extends Veiculo{
     private boolean ligado;
+    private boolean desligado;
 
     public void ligar(){
         ligado = true;
-        System.out.println("Moto ligado");
     }
+    public void desligar(){
+        desligado = true;
+    }
+}

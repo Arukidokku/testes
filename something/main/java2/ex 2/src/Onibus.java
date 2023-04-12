@@ -5,4 +5,8 @@ public class Onibus extends Veiculo{
         ligado = true;
         System.out.println("Onibus ligado");
     }
+    public void Desligar(){
+        desligado = true;
+        System.out.println("Onibus Desligado");
+    }
 }
